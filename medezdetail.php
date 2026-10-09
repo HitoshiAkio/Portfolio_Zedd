@@ -204,7 +204,7 @@
                                         <p class="my-custom-card-desc">@HitoshiAkio</p>
                                     </div>
                                 </div>
-                                <a href="#" class="btn btn-outline-success btn-sm rounded-pill px-3">View Profile</a>
+                                <a href="https://github.com/HitoshiAkio" target="_blank" class="btn btn-outline-success btn-sm rounded-pill px-3">View Profile</a>
                             </div>
                         </div>
 
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- Client Contact Form Container -->
+                <!-- Client Contact thingy -->
 <div class="custom-form-card" style="border:green 1px solid;">
     <div class="form-header">
         <h3 class="form-title">
@@ -235,7 +235,7 @@
         <p class="form-subtitle">Got a project in mind or want to collaborate? Fill out your details below!</p>
     </div>
 
-    <form action="#" method="POST" class="custom-form">
+    <form action="send.php" method="POST" class="custom-form">
         <!-- Name Field -->
         <div class="form-group">
             <label for="client-name" class="form-label">
@@ -268,7 +268,7 @@
             <textarea id="client-message" name="message" class="custom-textarea" placeholder="Tell me about your project goals, timeline, or idea..." required></textarea>
         </div>
 
-        <!-- Submit Button -->
+       
         <button type="submit" class="custom-submit-btn">
             <i class="fa-solid fa-paper-plane"></i> Send Signal
         </button>
@@ -281,13 +281,14 @@
             <hr>
             <div class="container border-top border-bottom border-secondary pt-3 jutify-content-center text-center">
                 <h4 class="TitleGreenShine"><span style="color: white;">Zedd</span>y</h4>
-                <p>Front-End web Developer</p>
+                <p>Front-End web Developer</p>0
                 <br>
                 <p class="text-light text-center mb-0">© 2026 Zedd. All rights reserved.</p>
                 <p>Built with <span class="TitleGreenShine">Bootstrap CSS</span> & <span class="TitleGreenShine">Tailwind CSS</span></p>
                 <hr>
             </div>
             <br>
+            <?php include 'assets/_scripts.php'; ?>
     </div>
 </body>
 </html>
