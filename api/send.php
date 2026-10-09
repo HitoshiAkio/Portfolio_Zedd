@@ -28,7 +28,7 @@ try {
     $mail->AltBody = 'Sent with PHPMailer.';
  
     if ($mail->send()) {
-        header('Location: /emailsent.php');
+        header('Location: /emailsent.html');
         exit(  );
     } else {
     echo 'Email Not Sent';
